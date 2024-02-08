@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Main layouyt -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+    <!--header block-1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <!--current data-->
+        <ImageView
+            android:id="@+id/SHL"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="15dp"
+            app:srcCompat="@drawable/back" />
+        <TextView
+            android:id="@+id/CurrData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_vertical"
+            android:text="текущая дата">
+        </TextView>
+        <ImageView
+            android:id="@+id/SHR"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/forward" />
+
+        <!--insert two images-->
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/FragCont"
+        >
+    </FrameLayout>
+</LinearLayout>

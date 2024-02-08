@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ThinkCash</string>
+    <string-array name="Scores">
+        <item>Наличные</item>
+        <item>Электронные</item>
+        <item>Акции</item>
+        <item>Криптовалюта</item>
+    </string-array>
+</resources>

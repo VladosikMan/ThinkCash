@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    >
+<!-- !-->
+<!-- Какие сложные комментари!-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Аналитика"
+        android:id="@+id/text"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <!--Аналитика счетов !-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Счета - Рекомендуем стараться распределять свои средства по разным счетам, дабы избежать возможности форс-мажора"
+        android:id="@+id/scotext"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analscor"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analcat"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analproper"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        >
+    </TextView>
+</LinearLayout>
